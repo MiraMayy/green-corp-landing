@@ -38,6 +38,7 @@ button {
   transition: background-color 0.3s ease-in;
 }
 .about {
+  position: relative;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -47,6 +48,12 @@ button {
   background-position: center;
   background-size: cover;
 }  
+.orb-canvas {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+}
 .about__image {
   width: 500px;
 }
