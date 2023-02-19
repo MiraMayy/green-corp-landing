@@ -3,10 +3,18 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 20px;
-  background: white;
-  position:sticky;
+  background: none;
+  left: 0;
+  right: 0;
+  position:fixed;
   top: 0;
+  transition: box-shadow, background-color .25s ease;
   z-index: 1;
+}
+
+.header__scrolled {
+  background-color: white;
+  box-shadow: 0 12px 34px -11px rgb(65 62 101 / 10%);
 }
 body {
   font-family: 'Raleway', sans-serif;
